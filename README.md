@@ -326,28 +326,6 @@ D_x(y) = min_v [ c(x,v) + D_v(y) ]
 | RIP Example | 4 | 5 | Hop-count vs cost |
 | Larger Network | 8 | 14 | Performance testing |
 
-##  Limitations
-
-1. **Educational Focus**: Not a production routing daemon
-2. **No Real Protocol Packets**: Simulates logic, not wire format
-3. **Single-Threaded**: Python GIL limits performance
-4. **No FRRouting Integration**: Optional, not implemented
-5. **Static Topology During Run**: Changes require re-run
-6. **Memory**: Full topology stored per router (LS)
-7. **IPv4 Only**: No IPv6 support in current version
-
-##  Future Enhancements
-
-- [ ] **FRRouting Integration** - Docker-based real OSPF validation
-- [ ] **BGP Simulation** - Path vector protocol
-- [ ] **Animation** - Packet forwarding visualization
-- [ ] **Multi-Area OSPF** - Area hierarchy simulation
-- [ ] **QoS Metrics** - Bandwidth, delay, reliability
-- [ ] **Mobile/Ad-hoc** - AODV, DSR protocols
-- [ ] **SDN Controller** - OpenFlow simulation
-- [ ] **Export to NS-3** - Network simulator integration
-- [ ] **Collaborative Mode** - Multi-user topology editing
-- [ ] **Assessment Mode** - Auto-graded lab exercises
 
 ##  License
 
